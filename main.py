@@ -36,7 +36,7 @@ else:
         sys.exit(1)
 
 # Define paths
-screenshot_path = Path("C:\\Users\\James\\AppData\\Roaming\\ModrinthApp\\profiles\\shaders\\screenshots")
+screenshot_path = Path(input("screenshot path: "))
 downloads_path = Path("C:\\Users\\James\\Downloads")
 main_path = downloads_path / "main"
 save_path = main_path / "assets/minecraft/textures/gui/title/background"
