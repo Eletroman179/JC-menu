@@ -10,9 +10,16 @@ import re
 from pathlib import Path
 
 # Perform checks
-if not input("Is Minecraft FOV at 82? [Y/N]: ").strip().lower() == "y":
+if input("Is Minecraft FOV at 82? [Y/N]: ").strip().lower() == "n":
+    print("Find out how \033]8;;https://github.com/Eletroman179/JC-menu/blob/main/tutorials/FOV.md\033\\Here\033]8;;\033\\")
+    print("This is required")
     sys.exit(0)
-if not input("Is Minecraft at the next tab? [Y/N]: ").strip().lower() == "y":
+if input("Is Minecraft at the next tab? [Y/N]: ").strip().lower() == "n":
+    print("This is required")
+    sys.exit(0)
+if input("Is Minecraft resolution at 1024 x 1024? [Y/N]: ").strip().lower() == "n":
+    print("Find out how \033]8;;https://github.com/Eletroman179/JC-menu/blob/main/tutorials/resolution.md\033\\Here\033]8;;\033\\")
+    print("This is required")
     sys.exit(0)
 
 cords = input("enter cords with F3 + C or X Y Z\n")
@@ -58,7 +65,7 @@ def command(cmd):
     pyautogui.press("/")
     pyautogui.typewrite(cmd)
     pyautogui.press("enter")
-    time.sleep(0.2)
+    #time.sleep(0.2)
     pyautogui.press("F2")
 
 # Wait before executing commands
