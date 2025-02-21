@@ -1,7 +1,3 @@
-Here’s a **GitHub Markdown-style** tutorial on how to **set the resolution** in both **Modrinth App** and **Minecraft Launcher**.  
-
----
-
 # **How to Set the Resolution in Modrinth App & Minecraft Launcher**  
 
 Setting a custom **resolution** in Minecraft can improve visual quality and performance. This guide covers how to adjust the resolution in both the **Modrinth App** and the **official Minecraft Launcher**.
